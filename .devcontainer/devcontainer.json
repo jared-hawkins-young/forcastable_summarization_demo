@@ -1,0 +1,14 @@
+{
+    "name": "Ollama Dev Container",
+    "dockerFile": "Dockerfile",
+    "appPort": [11434],
+    "workspaceFolder": "/workspace",
+    "extensions": [
+        "ms-python.python",
+        "ms-azuretools.vscode-docker"
+    ],
+    "settings": {
+        "python.pythonPath": "/usr/bin/python3"
+    },
+    "postCreateCommand": "pip install requests"
+}
